@@ -1,7 +1,7 @@
 eureka:
-    client:
-        serviceUrl:
-            defaultZone: http://localhost:8761/eureka/
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 server:
   port: 8888
 
@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/bentengxiangdahai/springcloud.helloworld.eureka.configServer
+          uri: https://github.com/bentengxiangdahai/springcloud.helloworld.eureka.configServer.git
           searchPaths: spring-cloud
   application:
     name: config-server
