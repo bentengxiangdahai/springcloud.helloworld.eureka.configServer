@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication
 public class ConfigServerApplication {
     public static void main(String[] args) {
-		//合并测试1
+		//合并测试12
         SpringApplication.run(ConfigServerApplication.class, args);
     }
 }
